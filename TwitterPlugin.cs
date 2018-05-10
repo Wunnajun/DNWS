@@ -363,6 +363,7 @@ namespace DNWS
                 }
                 else
                 {
+
                     if (action.Equals("newuser"))
                     {
                         if (username != null && password != null && username != "" && password != "")
