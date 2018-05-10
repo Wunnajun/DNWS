@@ -430,7 +430,7 @@ namespace DNWS
                             twitter.AddFollowing(following);
                             sb = GenTimeline(twitter, sb);
                         }
-                        catch (Exception ex)
+                        catch (Exception ex)  
                         {
                             sb.Append(String.Format("Error [{0}], please go back to <a href=\"/twitter\">login page</a> to try again", ex.Message));
                         }
